@@ -1,0 +1,192 @@
+body{
+    font-family: sans-serif;
+    background-color: black;
+}
+.navbar{
+    background-color: rgb(2, 2, 55);
+    text-align: left;
+    z-index: 999;
+    
+}
+.logo{
+    color: azure;
+    font-size: 20px;
+}
+.logo span {
+    color: rgb(0, 101, 178);
+}
+.navbar ul{
+    display:inline-flex;
+    list-style: none;
+    color: azure;
+}
+.navbar ul li {
+    margin: 5px;
+    padding: 5px 10px;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: azure;
+    transition: all 0.3s;
+}
+.navbar ul li a:hover{
+    text-decoration: none;
+    cursor: pointer;
+    color: rgb(76, 197, 240);
+}.navbar ul ul {
+    display:none;
+    position: absolute;
+}
+.navbar ul ul li {
+    display: block;
+    background-color: rgb(2, 2, 55);
+}
+.navbar li:hover ul {
+display: block;
+
+}
+.navbar ul ul li a:hover{
+    background-color:rgb(2, 2, 55) ;
+}
+.loginbox{
+    padding: 70px 30px;
+    margin: auto;
+    width: 320px;
+    height: 600px;
+    background: rgb(2, 2, 55);
+    color: #fff;
+    top: 75%;
+    left: 84%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+}
+.BCo{
+    width: 100px;
+    height: 90px;
+    border-radius: 60%; 
+    position: absolute;
+    top: 0%;
+    left: 40%;
+}
+.h1{
+    text-align: center;
+    font-size: 22px;
+}
+.loginbox p{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+}
+.loginbox input{
+    width: 100%;
+    margin-bottom: 10px; 
+background: transparent;
+border-bottom: 1px solid gray;
+border-top: none;
+border-right: none;
+border-left: none;
+color: #fff;
+}
+.log{
+    width: 200px;
+    height: 20px;
+    background: rgb(5, 5, 172);
+    border: none;
+    margin-top: 30px;
+    font-size: 14px;
+    border-radius: 20px;
+    
+}
+.log:hover{
+    cursor: pointer;
+    background:blue;
+    font-weight: bold;
+
+}
+.log a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.loginbox .bcoo{
+    text-decoration: none;
+    color: #fff;
+}
+
+.slider{
+    width: 700px;
+    height: 500px;
+    background: url(Images/computer.jpg);
+    background-position: right 80%;
+    top: 35%;
+    background-repeat: no-repeat;
+    background-size: auto;
+    position: absolute;
+    padding-right: 20px;
+    margin: 100px auto;
+    animation: slide 10s infinite;
+}
+@keyframes slide{
+    from {
+        width: 300px;
+        top: 100px;
+      }
+      to {
+        width: 100px;
+        top: 100px;
+      }
+    5%{
+        background: url(Images/best-hp-desktop1.png);
+        width: 700px;
+        height: 500px;
+        background-size: auto;
+        background-repeat: no-repeat;
+}
+    10%{
+        background: url(Images/best-hp-desktops.png);
+        width: 700px;
+        height: 500px;
+        background-size: auto;
+        background-repeat: no-repeat;
+    }
+    20%{
+        background:url(Images/MODEM.jpg);
+        width: 700px;
+        height: 500px;
+        background-size: auto;
+        background-repeat: no-repeat;
+    }
+    25%{
+        background:url(Images/keyboard.png);
+        width: 700px;
+        height: 500px;
+        background-size: auto;
+        background-repeat: no-repeat;
+    
+    }
+    35%{
+        background: url(Images/laptops.jpg);
+        width: 700px;
+        height: 500px;
+        background-size: auto;
+        background-repeat: no-repeat; 
+       
+    }
+}
+nav ul li:hover .dropdown-menu {
+    display: block;
+}
+
+/* Section Styles */
+section {
+    padding: 20px;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
